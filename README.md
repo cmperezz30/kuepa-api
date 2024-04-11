@@ -15,3 +15,26 @@ Cada paso de la configuración se encuentra acontinuacion, por lo que solo es ne
 4. Una vez montada la base de datos con docker, si desea insertar data semilla, ejecutar comando `npm run seed`, esperar unos segundos que el proceso termine.
 5. Ejecutar `npm run dev` para levantar el proyecto en modo desarrollo.
 
+## Data semilla que se crea en la base de datos
+
+- Usuarios
+    -username: cperez
+    -password: 123456
+    -rol: Estudiante
+
+    -username: jzapata
+    -password: 123456
+    -rol: Estudiante
+
+    -username: evalencia
+    -password: 123456
+    -rol: Moderador
+
+- Comentarios
+    -content: Hola, buenos dias profesor
+    -user: cperez (valor real id de mongo)
+
+    -content: Compañero llegas tarde!
+    -user: jzapata (valor real id de mongo)
+
+

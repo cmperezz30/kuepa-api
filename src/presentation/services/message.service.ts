@@ -24,9 +24,6 @@ export class MessageService {
 
             const populated = await message.populate('user')
 
-
-            console.log(populated)
-
             this.onNewMessageChanged(populated);
             return populated;
 
