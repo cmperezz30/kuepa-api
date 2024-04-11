@@ -18,23 +18,23 @@ Cada paso de la configuración se encuentra acontinuacion, por lo que solo es ne
 ## Data semilla que se crea en la base de datos
 
 - Usuarios
-    -username: cperez
-    -password: 123456
-    -rol: Estudiante
+    - username: cperez
+    - password: 123456
+    - rol: Estudiante
 
-    -username: jzapata
-    -password: 123456
-    -rol: Estudiante
+    - username: jzapata
+    - password: 123456
+    - rol: Estudiante
 
-    -username: evalencia
-    -password: 123456
-    -rol: Moderador
+    - username: evalencia
+    - password: 123456
+    - rol: Moderador
 
 - Comentarios
-    -content: Hola, buenos dias profesor
-    -user: cperez (valor real id de mongo)
+    - content: Hola, buenos dias profesor
+    - user: cperez (valor real id de mongo)
 
-    -content: Compañero llegas tarde!
-    -user: jzapata (valor real id de mongo)
+    - content: Compañero llegas tarde!
+    - user: jzapata (valor real id de mongo)
 
 
